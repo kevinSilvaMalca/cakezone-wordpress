@@ -23,6 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header( 'shop' ); ?>
 
 	<?php
+	print("ENTRO AQUI");
 		/**
 		 * woocommerce_before_main_content hook.
 		 *
