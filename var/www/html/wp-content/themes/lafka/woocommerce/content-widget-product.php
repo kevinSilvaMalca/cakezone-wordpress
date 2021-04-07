@@ -32,7 +32,7 @@ if ( ! is_a( $product, 'WC_Product' ) ) {
 
     <a href="<?php echo esc_url($product->get_permalink()); ?>" >
 	    <?php echo wp_kses_post( $product->get_image("lafka-general-small-size-nocrop") ); ?>
-        <span class="product-title"><?php print("ENTROOO"); echo wp_kses_post( $product->get_name() ); ?></span>
+        <span class="product-title"><?php echo wp_kses_post( $product->get_name() ); ?></span>
 	</a>
 
 	<?php if ( ! empty( $show_rating ) ) : ?>

@@ -44,6 +44,7 @@ if(lafka_get_option('hide_product_price_on_zero') && $product->get_price() == 0)
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( implode(' ', $lafka_product_classes), $product ); ?>>
     <div class="content_holder">
 	    <?php
+        print("ENTROO AQUI");
 	    // WooCommerce single product gallery type
         $lafka_single_product_gallery_classes = lafka_get_gallery_type_classes();
         ?>
