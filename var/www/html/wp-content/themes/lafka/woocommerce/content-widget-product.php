@@ -35,7 +35,10 @@ if ( ! is_a( $product, 'WC_Product' ) ) {
         <span class="product-title"><?php echo wp_kses_post( $product->get_name() ); ?></span>
 	</a>
 
-	<?php if ( ! empty( $show_rating ) ) : ?>
+	<?php 
+		print("ENTROOO");
+		echo("ESTA ES");
+	if ( ! empty( $show_rating ) ) : ?>
 		<?php echo wp_kses_post( wc_get_rating_html( $product->get_average_rating() ) ); ?>
 	<?php endif; ?>
 

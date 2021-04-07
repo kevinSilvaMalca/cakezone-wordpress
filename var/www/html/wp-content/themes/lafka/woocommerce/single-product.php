@@ -33,10 +33,7 @@ get_header( 'shop' ); ?>
 	?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php 
-			print("ENTROOO");
-			echo("ESTA ES");
-			wc_get_template_part( 'content', 'single-product' ); ?>
+			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
 
