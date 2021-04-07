@@ -1056,7 +1056,7 @@ if ( ! function_exists( 'lafka_show_variations_in_listings' ) ) {
                         <span class="lafka-list-variation-price">
                             <?php echo wp_kses_post( $variation['price_html'] ); ?>
                         </span>
-                        <button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+                        <!-- <button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button> -->
 
 						<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 
