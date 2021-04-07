@@ -1406,7 +1406,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1084
 msgctxt "theme-options"
-msgid "New Orders Push Notifications"
+msgid "Nueva Ordens Push Notifications"
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1085
@@ -3221,7 +3221,7 @@ msgid "Order"
 msgstr ""
 
 #: incl/woocommerce-functions.php:1206
-msgid "New Order"
+msgid "Nueva Orden"
 msgstr ""
 
 #: incl/woocommerce-functions.php:1207
