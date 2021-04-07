@@ -36,13 +36,13 @@ $lafka_product_video_url = get_post_meta($product->get_id(), 'lafka_product_vide
 
 ?>
 <div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
-
     <?php if($lafka_product_video_url): ?>
         <a title="<?php esc_attr_e('Play the video', 'lafka')?>" class="lafka_product_video_trigger" href="<?php echo esc_url($lafka_product_video_url) ?>" ><span class="fa fa-play-circle"></span><?php esc_html_e('Play the video', 'lafka')?></a>
 	<?php endif; ?>
 
 	<figure class="woocommerce-product-gallery__wrapper">
 		<?php
+		print("ENTRO AQUI");
 		if ( $product->get_image_id() ) {
 			$html  = wc_get_gallery_image_html( $post_thumbnail_id, true );
 		} else {
