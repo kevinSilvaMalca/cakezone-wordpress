@@ -33,8 +33,9 @@ if ( $related_products ) : ?>
         <div>
 
 			<?php foreach ( $related_products as $related_product ) : ?>
-
+				
 				<?php
+				print("ENTRO AQUI");
 				/** @var WC_Product $related_product */
 				$post_object = get_post( $related_product->get_id() );
 

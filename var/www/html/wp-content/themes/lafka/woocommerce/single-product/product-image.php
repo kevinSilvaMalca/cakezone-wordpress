@@ -42,7 +42,6 @@ $lafka_product_video_url = get_post_meta($product->get_id(), 'lafka_product_vide
 
 	<figure class="woocommerce-product-gallery__wrapper">
 		<?php
-		print("ENTRO AQUI");
 		if ( $product->get_image_id() ) {
 			$html  = wc_get_gallery_image_html( $post_thumbnail_id, true );
 		} else {
@@ -52,7 +51,7 @@ $lafka_product_video_url = get_post_meta($product->get_id(), 'lafka_product_vide
 		}
 
 		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, $post_thumbnail_id ); // phpcs:disable WordPress.XSS.EscapeOutput.OutputNotEscaped
-
+		
 		do_action( 'woocommerce_product_thumbnails' );
 		?>
 	</figure>
