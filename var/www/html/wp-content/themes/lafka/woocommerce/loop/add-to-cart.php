@@ -40,7 +40,6 @@ if ( lafka_get_option( 'use_quickview' ) && $product->get_type() != 'composite' 
 	if ( lafka_is_product_eligible_for_variation_in_listings( $product ) ) {
 		$lafka_quickview_link_label = __( 'More Options', 'lafka' );
 		$classes[] = 'lafka-more-options';
-		print("ENTRO AQUI");
 	} else {
 		$lafka_quickview_link_label = __( 'Order Now', 'lafka' );
 	}
