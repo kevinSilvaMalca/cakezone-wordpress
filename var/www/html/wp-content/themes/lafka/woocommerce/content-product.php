@@ -57,7 +57,7 @@ $classes[] = lafka_get_option('product_list_buttons_visibility');
 			</span>
 		</a>
 		<?php if($product->get_short_description()):?>
-			<?php print("ENTROO AQUI"); woocommerce_template_single_excerpt(); ?>
+			<?php  woocommerce_template_single_excerpt(); ?>
 		<?php endif; ?>
 		<?php if ( !lafka_is_product_eligible_for_variation_in_listings( $product ) ): ?>
 			<?php woocommerce_template_loop_price() ?>
