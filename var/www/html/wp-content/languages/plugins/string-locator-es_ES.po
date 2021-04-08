@@ -1,0 +1,329 @@
+# Translation of Plugins - String locator - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - String locator - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-05 15:14:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - String locator - Stable (latest release)\n"
+
+#: search.php:28
+msgid "No previous searches could be restored."
+msgstr "No se ha podido restaurar ninguna búsqueda anterior."
+
+#: editor.php:267
+msgid "Dismiss this notice."
+msgstr "Descartar este aviso."
+
+#. translators: File path.
+#: editor.php:184
+msgid "Full file path: %s"
+msgstr "Ruta completa al archivo: %s"
+
+#: editor.php:197
+msgid "Last modified:"
+msgstr "Última modificación:"
+
+#: editor.php:189
+msgid "File size:"
+msgstr "Tamaño del archivo:"
+
+#: editor.php:170
+msgid "This feature is highly recommended, and is what WordPress does when using the plugin- or theme-editor."
+msgstr "Esta característica es altamente recomendable y es lo que hace WordPress al usar el editor de plugins o temas."
+
+#: editor.php:166
+msgid "Enable loopback tests after making a save."
+msgstr "Activar las pruebas de retorno después de hacer un guardado."
+
+#: editor.php:154
+msgid "Save checks"
+msgstr "Guardar comprobaciones"
+
+#: editor.php:139
+msgid "Details"
+msgstr "Detalles"
+
+#. translators: %s: The name of the file being edited.
+#: editor.php:88
+msgid "You are currently editing <em>%s</em>"
+msgstr "Actualmente estás editando <em>%s</em>"
+
+#. translators: %s: The file location that was sent.
+#: includes/class-string-locator.php:1160
+msgid "The file location provided, <strong>%s</strong>, is not valid."
+msgstr "La ubicación del archivo proporcionada, <strong>%s</strong>, no es válida."
+
+#: includes/class-string-locator.php:1116
+msgid "Your changes were not saved, as a check of your site could not be completed afterwards. This may be due to a <a href=\"https://wordpress.org/support/article/loopbacks/\">loopback</a> error."
+msgstr "Tus cambios no se han guardado, y la comprobación de tu sitio no se pudo completar. Esto puede deberse a un error de <a href=\"https://wordpress.org/support/article/loopbacks/\">loopback</a>."
+
+#: includes/class-string-locator.php:658
+msgid "Line position"
+msgstr "Posición de la línea"
+
+#: search.php:46
+msgid "Because this site is configured to not allow direct file editing, the String Locator plugin has limited functionality and will only allow you to search for files with your string in them."
+msgstr "Como este sitio está configurado para o permitir la edición directa de archivos, el plugin String Locator tiene una funcionalidad limitada y solo te permitirá buscar archivos que contengan tu cadena."
+
+#: search.php:42
+msgid "String Locator is limited to search mode only."
+msgstr "String Locator está limitado a solo el modo de búsqueda."
+
+#: search.php:74
+msgid "RegEx search"
+msgstr "Búsqueda RegEx"
+
+#: includes/class-string-locator.php:860
+msgid "Next file: "
+msgstr "Siguiente archivo: "
+
+#: includes/class-string-locator.php:255
+msgid "All must-use plugins"
+msgstr "Todos los plugins imprescindibles"
+
+#: search.php:62
+msgid "Must Use Plugins"
+msgstr "Plugins imprescindibles"
+
+#: editor.php:121
+msgid "Keep in mind that edits to core files will be lost when WordPress is updated. Please consider <a href=\"https://make.wordpress.org/core/handbook/\">contributing to WordPress core</a> instead."
+msgstr "Ten en cuenta que, cuando se actualice WordPress, se perderán las ediciones hechas en los archivos del núcleo. Por favor, en su lugar, plantéate <a href=\"https://make.wordpress.org/core/handbook/\">contribuir al núcleo de WordPress</a>."
+
+#: editor.php:118
+msgid "You appear to be editing a Core file."
+msgstr "Parece que estás editando un archivo del núcleo."
+
+#: editor.php:118
+msgid "Warning:"
+msgstr "Advertencia:"
+
+#. translators: The WordPress description, used when a core file is opened in
+#. the editor.
+#: editor.php:24
+msgid "WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time."
+msgstr "WordPress es un software web que puedes usar para crear una hermosa web o blog. Nos gusta decir que WordPress, al mismo tiempo, es gratuito e impagable."
+
+#: includes/class-string-locator.php:1295
+msgid "Filename matches search"
+msgstr "El nombre de archivo coincide con la búsqueda"
+
+#. translators: %s: The search string used.
+#: includes/class-string-locator.php:493
+msgid "Your search string, <strong>%s</strong>, is not a valid pattern, and the search has been aborted."
+msgstr "Tu cadena de búsqueda, <strong>%s</strong>, no es un patrón válido y la búsqueda se ha cancelado."
+
+#: includes/class-string-locator.php:135
+msgid "Donate to this plugin"
+msgstr "Donar a este plugin"
+
+#: editor.php:180
+msgid "File location:"
+msgstr "Ubicación del archivo:"
+
+#: editor.php:177
+msgid "File information"
+msgstr "Información del archivo"
+
+#: includes/class-string-locator.php:866
+msgid "Warning"
+msgstr "Advertencia"
+
+#. translators: %1$d: Current amount of used system memory resources. %2$d: The
+#. maximum available system memory.
+#: includes/class-string-locator.php:473
+msgid "The memory limit is about to be exceeded before the search has started, this could be an early indicator that your site may soon struggle as well, unfortunately this means the plugin is unable to perform any searches. Current memory consumption: %1$d of %2$d bytes"
+msgstr "El límite de memoria está a punto de superarse antes de empezar la búsqueda, esto podría ser un indicador temprano de que tu sitio podría caerse también, desafortunadamente esto significa que el plugin no es capaz de realizar ninguna búsqueda. Consumo actual de memoria: %1$d de %2$d bytes"
+
+#. translators: %1$d: The time a PHP file can run, as defined by the server
+#. configuration. %2$d: The amount of time used by the PHP file so far.
+#: includes/class-string-locator.php:460
+msgid "The maximum time your server allows a script to run (%1$d) is too low for the plugin to run as intended, at startup %2$d seconds have passed"
+msgstr "El tiempo máximo que tu servidor permite ejecutarse a un script (%1$d) es demasiado bajo para que el plugin se ejecute como es deseable, al empezar se han pasado %2$d segundos"
+
+#: includes/class-string-locator.php:865
+msgid "Your search was completed, but no results were found."
+msgstr "Tu búsqueda se ha completado, pero no se han encontrado resultados."
+
+#: includes/class-string-locator.php:864
+msgid "The above error was returned by your server, for more details please consult your servers error logs."
+msgstr "El error anterior fue devuelto por el servidor, para más detalles, por favor consulta los registros de error de los servidores."
+
+#: includes/class-string-locator.php:863
+msgid "Preparations completed, search started&hellip;"
+msgstr "Preparativos completados, búsqueda iniciada&hellip;"
+
+#: includes/class-string-locator.php:1196
+msgid "We detected a PHP code tag ending, this has been automatically stripped out to help prevent errors in your code."
+msgstr "Hemos detectado una etiqueta final de código PHP, esto se ha eliminado automáticamente para ayudar a prevenir errores en tu código."
+
+#: includes/class-string-locator.php:861
+msgid "Saving search results&hellip;"
+msgstr "Guardando los resultados de la búsqueda..."
+
+#. translators: %d: The numbered reference to a file being searched.
+#: includes/class-string-locator.php:447
+msgid "The file-number, %d, that was sent could not be found."
+msgstr "El número de archivo enviado, %d, no se ha podido encontrar."
+
+#: includes/class-string-locator.php:298 includes/class-string-locator.php:415
+#: includes/class-string-locator.php:570
+msgid "Authentication failed"
+msgstr "Identificación fallida"
+
+#: search.php:86 includes/class-string-locator.php:862
+msgid "Preparing search&hellip;"
+msgstr "Preparar la búsqueda&hellip;"
+
+#: search.php:56
+msgid "Everything under wp-content"
+msgstr "Todo en wp-content"
+
+#: editor.php:110
+msgid "When making changes to a theme, it is recommended you make a <a href=\"https://codex.wordpress.org/Child_Themes\">Child Theme</a>."
+msgstr "Al realizar cambios en un tema, se recomienda hacer un <a href=\"https://codex.wordpress.org/Child_Themes\">tema hijo</a>."
+
+#: editor.php:106
+msgid "It seems you are making direct edits to a theme."
+msgstr "Parece que estás editando directamente un tema."
+
+#. Author URI of the plugin
+msgid "http://www.clorith.net"
+msgstr "https://www.clorith.net"
+
+#. Author of the plugin
+msgid "Clorith"
+msgstr "Clorith"
+
+#. Description of the plugin
+msgid "Scan through theme and plugin files looking for text strings"
+msgstr "Escanear los archivos de los temas y plugins en busca de cadenas de texto"
+
+#. Plugin URI of the plugin
+msgid "http://www.clorith.net/wordpress-string-locator/"
+msgstr "https://www.clorith.net/wordpress-string-locator/"
+
+#. translators: The row-action edit link label.
+#: search.php:111 search.php:112 includes/class-string-locator.php:616
+msgid "Edit"
+msgstr "Editor"
+
+#: includes/class-string-locator.php:657
+msgid "Line number"
+msgstr "Número de línea"
+
+#: includes/class-string-locator.php:656
+msgid "File"
+msgstr "Archivo"
+
+#: includes/class-string-locator.php:655
+msgid "String"
+msgstr "Cadena"
+
+#. translators: 1: Filename.
+#: includes/class-string-locator.php:1402
+msgid "Could not read file: %s"
+msgstr "No se ha podido leer el archivo: %s"
+
+#: includes/class-string-locator.php:1148
+msgid "The file has been saved"
+msgstr "El archivo se ha guardado"
+
+#: includes/class-string-locator.php:1139
+msgid "A 500 server error was detected on your site after updating your file. We have restored the previous version of the file for you."
+msgstr "Se ha detectado un error 500 del servidor en tu sitio después de actualizar tu archivo. Hemos restaurado por ti la versión anterior del archivo."
+
+#. translators: 1: Line number with an error.
+#: includes/class-string-locator.php:1074
+msgid "There is an inconsistency in the opening and closing braces, ( and ), of your file on line %s"
+msgstr "Hay una inconsistencia en los paréntesis de apertura y cierre, ( y ), de tu archivo en la línea %s"
+
+#. translators: 1: Line number with an error.
+#: includes/class-string-locator.php:1055
+msgid "There is an inconsistency in the opening and closing braces, [ and ], of your file on line %s"
+msgstr "Hay una inconsistencia en los corchetes de apertura y cierre, [ y ], de tu archivo en la línea %s"
+
+#. translators: 1: Line number with an error.
+#: includes/class-string-locator.php:1036
+msgid "There is an inconsistency in the opening and closing braces, { and }, of your file on line %s"
+msgstr "Hay una inconsistencia en las llaves de apertura y cierre, { y }, de tu archivo en la línea %s"
+
+#: includes/class-string-locator.php:1012
+msgid "The file could not be written to, please check file permissions or edit it manually."
+msgstr "No se puede escribir en el archivo, por favor, comprueba los permisos del archivo o edítalo manualmente."
+
+#: search.php:78
+msgid "Restore last search"
+msgstr "Restaurar la última búsqueda"
+
+#: search.php:77
+msgid "Search"
+msgstr "Buscar"
+
+#: search.php:71
+msgid "Search string"
+msgstr "Buscar cadena"
+
+#: includes/class-string-locator.php:224
+msgid "All plugins"
+msgstr "Todos los plugins"
+
+#: search.php:66
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/class-string-locator.php:154
+msgid "All themes"
+msgstr "Todos los temas"
+
+#: search.php:58
+msgid "Themes"
+msgstr "Temas"
+
+#: search.php:55
+msgid "The whole WordPress directory"
+msgstr "Todo el directorio de WordPress"
+
+#: search.php:54
+msgid "Core"
+msgstr "Núcleo"
+
+#: search.php:52
+msgid "Search through"
+msgstr "Buscar en"
+
+#. Plugin Name of the plugin
+#: search.php:35 includes/class-string-locator.php:904
+#: includes/class-string-locator.php:905 includes/class-string-locator.php:920
+#: includes/class-string-locator.php:921
+msgid "String Locator"
+msgstr "String Locator"
+
+#: editor.php:253
+msgid "WordPress functions"
+msgstr "Funciones de WordPress"
+
+#: editor.php:97
+msgid "Save changes"
+msgstr "﻿Guardar los cambios"
+
+#: editor.php:159
+msgid "Enable a smart-scan of your code to help detect bracket mismatches before saving."
+msgstr "Antes de guardar, activa una exploración inteligente de tu código para ayudar a detectar discrepancias."
+
+#: editor.php:145
+msgid "By"
+msgstr "Por"
+
+#: editor.php:96
+msgid "Return to search results"
+msgstr "Volver a los resultados de la búsqueda"
+
+#. translators: Title on the editor page.
+#: editor.php:76
+msgid "String Locator - Code Editor"
+msgstr "String Locator - Editor de código"

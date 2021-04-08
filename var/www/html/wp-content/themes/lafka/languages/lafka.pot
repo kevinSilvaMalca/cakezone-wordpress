@@ -2,17 +2,17 @@
 # This file is distributed under the Envato / Themeforest Split Licence.
 msgid ""
 msgstr ""
-"Project-Id-Version: Lafka 1.4.2.1\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lafka\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-03-19T13:09:03+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.3.0\n"
-"X-Domain: lafka\n"
+"Project-Id-Version: Lafka 1.4.2.1n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/lafkan"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>n"
+"Language-Team: LANGUAGE <LL@li.org>n"
+"MIME-Version: 1.0n"
+"Content-Type: text/plain; charset=UTF-8n"
+"Content-Transfer-Encoding: 8bitn"
+"POT-Creation-Date: 2020-03-19T13:09:03+00:00n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONEn"
+"X-Generator: WP-CLI 2.3.0n"
+"X-Domain: lafkan"
 
 #. Theme Name of the theme
 msgid "Lafka"
@@ -49,13 +49,13 @@ msgstr ""
 #: archive.php:101
 #: index.php:106
 #: search.php:89
-msgid "Next &raquo;"
+msgid "Next »"
 msgstr ""
 
 #: archive.php:102
 #: index.php:107
 #: search.php:90
-msgid "&laquo; Back"
+msgid "« Back"
 msgstr ""
 
 #: archive.php:114
@@ -81,12 +81,12 @@ msgstr[1] ""
 
 #: comments.php:29
 #: comments.php:42
-msgid "&larr; Older Comments"
+msgid "← Older Comments"
 msgstr ""
 
 #: comments.php:30
 #: comments.php:43
-msgid "Newer Comments &rarr;"
+msgid "Newer Comments →"
 msgstr ""
 
 #: comments.php:50
@@ -421,7 +421,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:62
 msgctxt "theme-options"
-msgid "Use \"time-ago\" (e.g. 3 days ago) date format for posts created in the last 6 months. For older posts, WordPress date format will be used. "
+msgid "Use "time-ago" (e.g. 3 days ago) date format for posts created in the last 6 months. For older posts, WordPress date format will be used. "
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:63
@@ -466,7 +466,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:194
 msgctxt "theme-options"
-msgid "Below \"Add to cart\""
+msgid "Below "Add to cart""
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:208
@@ -589,7 +589,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:306
 msgctxt "theme-options"
-msgid "Enter your Google Maps JavaScript API key, to be used for google map integration in Map shortcode. <a target=\"_blank\" href=\"%s\">Generate Google Maps JavaScript API key</a>"
+msgid "Enter your Google Maps JavaScript API key, to be used for google map integration in Map shortcode. <a target="_blank" href="%s">Generate Google Maps JavaScript API key</a>"
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:317
@@ -619,7 +619,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:332
 msgctxt "theme-options"
-msgid "Choose between the WordPress settings format and the theme \"time ago\" format for posts and all custom post types."
+msgid "Choose between the WordPress settings format and the theme "time ago" format for posts and all custom post types."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:341
@@ -920,7 +920,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:624
 msgctxt "theme-options"
-msgid "Main logo will be displayed in footer, unless General->Footer Logo is selected. In that case \"Footer Logo\" will be displayed."
+msgid "Main logo will be displayed in footer, unless General->Footer Logo is selected. In that case "Footer Logo" will be displayed."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:630
@@ -1411,7 +1411,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1085
 msgctxt "theme-options"
-msgid "Logged in users with at least \"Shop Manager\" permissions will receive browser push notification for each order which is ready to be processed. The site should be SSL enabled."
+msgid "Logged in users with at least "Shop Manager" permissions will receive browser push notification for each order which is ready to be processed. The site should be SSL enabled."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1091
@@ -1512,7 +1512,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1155
 msgctxt "theme-options"
-msgid "Use \"Load More\" button for the additional products to load."
+msgid "Use "Load More" button for the additional products to load."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1162
@@ -1552,17 +1552,17 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1181
 msgctxt "theme-options"
-msgid "Enable ajax for the price filter, sorting, products per page and \"Lafka Product Filter\" widget"
+msgid "Enable ajax for the price filter, sorting, products per page and "Lafka Product Filter" widget"
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1187
 msgctxt "theme-options"
-msgid "Show \"My Account\" Icon"
+msgid "Show "My Account" Icon"
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1188
 msgctxt "theme-options"
-msgid "Choose whether to display \"My Account\" icon link in header."
+msgid "Choose whether to display "My Account" icon link in header."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1194
@@ -1602,7 +1602,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1216
 msgctxt "theme-options"
-msgid "Set background color for \"Add to Cart\" button on products."
+msgid "Set background color for "Add to Cart" button on products."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1222
@@ -1672,7 +1672,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1266
 msgctxt "theme-options"
-msgid "Should \"Add to cart\" and similar buttons be visible on product listings, or hidden."
+msgid "Should "Add to cart" and similar buttons be visible on product listings, or hidden."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1272
@@ -1842,7 +1842,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1391
 msgctxt "theme-options"
-msgid "\"NEW\" Label Active Period"
+msgid ""NEW" Label Active Period"
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:1392
@@ -2416,7 +2416,7 @@ msgstr ""
 #: incl/lafka-options-framework/lafka-options.php:2087
 #: incl/lafka-options-framework/lafka-options.php:2107
 msgctxt "theme-options"
-msgid "<p><b>Demo Location:</b> %s <br/><b>NOTE:</b> Usually takes less than 3 minutes, but depending on the server it may take up to 10.</p><p><b>Required plugins for the import:</b><br/><b><a target=\"_blank\" href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a></b></p>"
+msgid "<p><b>Demo Location:</b> %s <br/><b>NOTE:</b> Usually takes less than 3 minutes, but depending on the server it may take up to 10.</p><p><b>Required plugins for the import:</b><br/><b><a target="_blank" href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a></b></p>"
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:2076
@@ -2467,7 +2467,7 @@ msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:2144
 msgctxt "theme-options"
-msgid "Please install and activate \"Envato Market\" in order to manage all your WordPress themes and plugins purchased from Envato."
+msgid "Please install and activate "Envato Market" in order to manage all your WordPress themes and plugins purchased from Envato."
 msgstr ""
 
 #: incl/lafka-options-framework/lafka-options.php:2145
@@ -2519,7 +2519,7 @@ msgid "Navigation Label"
 msgstr ""
 
 #: incl/LafkaMegaMenu.php:165
-msgid "(Enter \"-\" to hide)"
+msgid "(Enter "-" to hide)"
 msgstr ""
 
 #: incl/LafkaMegaMenu.php:171
@@ -2993,34 +2993,34 @@ msgstr ""
 #. translators: 1: number of plugins.
 #: incl/tgm-plugin-activation/class-tgm-plugin-activation.php:2473
 msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
+msgid "All <span class="count">(%s)</span>"
+msgid_plural "All <span class="count">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: incl/tgm-plugin-activation/class-tgm-plugin-activation.php:2477
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgid "To Install <span class="count">(%s)</span>"
+msgid_plural "To Install <span class="count">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: incl/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
-msgid "Update Available <span class=\"count\">(%s)</span>"
-msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgid "Update Available <span class="count">(%s)</span>"
+msgid_plural "Update Available <span class="count">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
 #. translators: 1: number of plugins.
 #: incl/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgid "To Activate <span class="count">(%s)</span>"
+msgid_plural "To Activate <span class="count">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
 #: incl/tgm-plugin-activation/class-tgm-plugin-activation.php:2567
-msgctxt "as in: \"version nr unknown\""
+msgctxt "as in: "version nr unknown""
 msgid "unknown"
 msgstr ""
 
@@ -3235,7 +3235,7 @@ msgstr ""
 
 #: incl/woocommerce-functions.php:1234
 #: single-lafka-foodmenu.php:334
-msgid "Browse more \"%s\""
+msgid "Browse more "%s""
 msgstr ""
 
 #: incl/woocommerce-functions.php:1239
@@ -3446,7 +3446,7 @@ msgstr ""
 
 #: woocommerce/loop/add-to-cart.php:41
 msgid "More Options"
-msgstr ""
+msgstr "Mas Opciones"
 
 #: woocommerce/loop/add-to-cart.php:44
 msgid "Order Now"

@@ -4,3 +4,6 @@
 .awcfe-inline-item .woocommerce-input-wrapper label {
     display: inline-block !important; margin: 0px 10px 0px 0px;
 }
+.awcfe-hidden {
+	display: none;
+}
