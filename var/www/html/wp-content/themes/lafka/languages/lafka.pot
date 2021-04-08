@@ -3446,7 +3446,7 @@ msgstr ""
 
 #: woocommerce/loop/add-to-cart.php:41
 msgid "More Options"
-msgstr ""
+msgstr "Mas Opciones"
 
 #: woocommerce/loop/add-to-cart.php:44
 msgid "Order Now"
