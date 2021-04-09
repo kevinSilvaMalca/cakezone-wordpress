@@ -48,12 +48,11 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 	} else {
 		// MODIFICACIONES KHACK
 ?>
-
 		<span class="lafka-list-variation-price">
 			<?php echo wp_kses_post($product->get_price()); ?>
 		</span>
-		<?php$lafka_quickview_link_label = __('Ordenalo Ahora', 'lafka');?>
 <?php
+		$lafka_quickview_link_label = __('Ordenalo Ahora', 'lafka');
 		// MODIFICACIONES KHACK
 	}
 
