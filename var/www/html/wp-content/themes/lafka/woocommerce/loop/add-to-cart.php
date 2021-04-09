@@ -49,13 +49,13 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		// MODIFICACIONES KHACK
 		$show_variation_price = apply_filters('woocommerce_variable_price_html', $product->get_price());
 ?>
-		<form class="lafka-variations-in-catalog cart" action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint($product->get_id()); ?>">
+		<div class="lafka-variations-in-catalog cart">
 			<span class="lafka-list-variation-price">
 				<span class="price"><?php echo wc_price($product->get_price()); ?></span>
 				<?php $lafka_quickview_link_label = __('+', 'lafka'); ?>
 				<!-- ORDENALO AHORA -->
 			</span>
-		</form>
+		</div>
 <?php
 
 		// MODIFICACIONES KHACK
