@@ -52,9 +52,11 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		<div class="lafka-variations-in-catalog cart">
 			<span class="lafka-list-variation-price">
 				<span class="price"> <?php echo wc_price($product->get_price()); ?> </span>
-				<span class="lafka-list-variation-label" <?php $lafka_quickview_link_label = __('+', 'lafka'); ?> </span>
-					<!-- ORDENALO AHORA -->
-				</span>
+				<!-- ORDENALO AHORA -->
+			</span>
+		</div>
+		<div class="lafka-variations-in-catalog cart">
+			<span class="lafka-list-variation-label" <?php $lafka_quickview_link_label = __('+', 'lafka'); ?> </span>
 		</div>
 <?php
 
