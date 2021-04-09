@@ -42,10 +42,11 @@ $lafka_product_video_url = get_post_meta($product->get_id(), 'lafka_product_vide
 
 	<figure class="woocommerce-product-gallery__wrapper">
 		<?php
-		print("ENTROO");
 		if ( $product->get_image_id() ) {
+			print("ENTROO1");
 			$html  = wc_get_gallery_image_html( $post_thumbnail_id, true );
 		} else {
+			print("ENTROO2");
 			$html  = '<div class="woocommerce-product-gallery__image--placeholder">';
 			$html .= sprintf( '<img src="%s" alt="%s" class="wp-post-image" />', esc_url( wc_placeholder_img_src('woocommerce_single') ), esc_html__( 'Awaiting product image', 'lafka' ) );
 			$html .= '</div>';
