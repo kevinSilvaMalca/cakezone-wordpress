@@ -46,7 +46,13 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		$lafka_quickview_link_label = __('Mas Opciones', 'lafka');
 		$classes[] = 'lafka-more-options';
 	} else {
+		// NuevaProgramacionDePrueba
+		$lafka_variable_product = wc_get_product( $product );
+		// NuevaProgramacionDePrueba
 ?>
+		<!-- NuevaProgramacionDePrueba -->
+		<?php foreach ( $lafka_variable_product->get_available_variations() as $variation ): ?>
+		<?php if ( get_post_meta( $variation['variation_id'], '_lafka_variable_in_catalog', true ) ): ?>
 		<form class="lafka-variations-in-catalog cart" action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint($product->get_id()); ?>">
 
 			<span class="lafka-list-variation-label">
@@ -101,6 +107,7 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 			}
 			?>
 		</form>
+		<!-- NuevaProgramacionDePrueba -->
 <?php
 		$lafka_quickview_link_label = __('+', 'lafka'); //Ordenalo Ahora More Options
 	}
