@@ -48,7 +48,7 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 	} else {
 		// MODIFICACIONES KHACK
 ?>
-		<span class="lafka-list-variation-price">
+		<span class="woocommerce-Price-amount amount">
 			<?php echo wp_kses_post($product->get_price()); ?>
 		</span>
 <?php
