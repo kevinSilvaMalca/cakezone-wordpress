@@ -55,9 +55,7 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 				<!-- ORDENALO AHORA -->
 			</span>
 		</div>
-		<div class="lafka-variations-in-catalog cart">
-			<span class="lafka-list-variation-label" <?php $lafka_quickview_link_label = __('+', 'lafka'); ?> </span>
-		</div>
+		<?php $lafka_quickview_link_label = __('+', 'lafka'); ?>
 <?php
 
 		// MODIFICACIONES KHACK
