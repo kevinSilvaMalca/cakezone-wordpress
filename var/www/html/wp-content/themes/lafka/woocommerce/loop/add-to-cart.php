@@ -23,29 +23,40 @@ if (!defined('ABSPATH')) {
 
 global $product;
 echo '<div class="links">';
-echo apply_filters('woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
-					sprintf('<a href="%s" data-quantity="%s" class="%s" title="%s" %s>%s</a>',
-						esc_url($product->add_to_cart_url()),
-						esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
-						esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
-						esc_attr($product->add_to_cart_text()),
-						isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
-						esc_html($product->add_to_cart_text())
-					), $product, $args);
+echo apply_filters(
+	'woocommerce_loop_add_to_cart_link', // WPCS: XSS ok.
+	sprintf(
+		'<a href="%s" data-quantity="%s" class="%s" title="%s" %s>%s</a>',
+		esc_url($product->add_to_cart_url()),
+		esc_attr(isset($args['quantity']) ? $args['quantity'] : 1),
+		esc_attr(isset($args['class']) ? $args['class'] : 'button'),
+		esc_attr($product->add_to_cart_text()),
+		isset($args['attributes']) ? wc_implode_html_attributes($args['attributes']) : '',
+		esc_html($product->add_to_cart_text())
+	),
+	$product,
+	$args
+);
 
 // Do not show quickview link for composite products as it is too complex for the user
-if ( lafka_get_option( 'use_quickview' ) && $product->get_type() != 'composite' ) {
+if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 	$classes = array('lafka-quick-view-link');
 
-	if ( lafka_is_product_eligible_for_variation_in_listings( $product ) ) {
-		$lafka_quickview_link_label = __( 'Mas Opciones', 'lafka' );
+	if (lafka_is_product_eligible_for_variation_in_listings($product)) {
+		$lafka_quickview_link_label = __('Mas Opciones', 'lafka');
 		$classes[] = 'lafka-more-options';
 	} else {
-		print($product->get_price());
-		$lafka_quickview_link_label = __( 'Ordenalo Ahora', 'lafka' );
+?>
+		<span class="lafka-list-variation-label">
+			<?php
+			echo esc_html(implode(' ', $product->get_price()));
+			$lafka_quickview_link_label = __('Ordenalo Ahora', 'lafka');
+			?>
+		</span>
+<?php
 	}
 
-	echo '<a href="#" class="'.esc_attr(implode(' ', $classes)).'" data-id="' . esc_attr( $product->get_id() ) . '" title="' . esc_attr( $lafka_quickview_link_label ) . '">' . esc_html( $lafka_quickview_link_label ) . '</a>';
+	echo '<a href="#" class="' . esc_attr(implode(' ', $classes)) . '" data-id="' . esc_attr($product->get_id()) . '" title="' . esc_attr($lafka_quickview_link_label) . '">' . esc_html($lafka_quickview_link_label) . '</a>';
 }
 // show compare link
 if (defined('YITH_WOOCOMPARE')) {
