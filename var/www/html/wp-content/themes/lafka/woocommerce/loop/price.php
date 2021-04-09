@@ -24,5 +24,7 @@ global $product;
 ?>
 
 <?php if ($price_html = $product->get_price_html()) : ?>
-	<div class="price_hold"><?php echo wp_kses_post($price_html); ?></div>
+	<!-- <div class="price_hold">
+	<?php echo wp_kses_post($price_html); ?>
+	</div> -->
 <?php endif; ?>
