@@ -47,8 +47,10 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		$classes[] = 'lafka-more-options';
 	} else {
 		// MODIFICACIONES KHACK
-		$show_variation_price = apply_filters( 'woocommerce_variable_price_html', $product->get_price() );
+		$show_variation_price = apply_filters('woocommerce_variable_price_html', $product->get_price());
 		print($show_variation_price);
+		$show_price_html = get_price_html($product);
+		print($show_price_html);
 ?>
 		<form class="lafka-variations-in-catalog cart" action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint($product->get_id()); ?>">
 			<span class="lafka-list-variation-price">
@@ -70,3 +72,17 @@ if (defined('YITH_WOOCOMPARE')) {
 }
 
 echo '</div>';
+
+function get_price_html($product)
+{
+	$min_price     = current($product->get_price());
+	$max_price     = end($product->get_price());
+
+	if ($min_price !== $max_price) {
+		$price = wc_format_price_range($min_price, $max_price);
+	} else {
+		$price = wc_price($min_price);
+	}
+	$price = apply_filters('woocommerce_variable_price_html', $price);
+	return apply_filters('woocommerce_get_price_html', $price);
+}
