@@ -7045,7 +7045,7 @@ div.prod_hold .name {
 div.prod_hold a {
     text-decoration: none;
 }
-
+/* MODIFICADO POR KHACK */
 div.prod_hold .links a.lafka-quick-view-link {
     text-decoration: none;
     margin: 0px 2px;
@@ -7053,17 +7053,18 @@ div.prod_hold .links a.lafka-quick-view-link {
     height: 30px;
     vertical-align: middle;
     text-align: center;
-    font-size: 12px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 500;
     display: inline-block;
     border-radius: 3px;
     padding: 0 15px;
-    background-color: #ffffff;
-    color: #333333;
-    border: 2px solid #e8e8e8;
+    background-color: #e4584b;
+    color: #e8e8e8;
+    border: 2px solid #e4584b;
     line-height: 28px;
 }
+/* MODIFICADO POR KHACK */
 
 a.lafka-quick-view-link i, .links a.compare i.fa {
     font-family: 'feather' !important;
@@ -7074,14 +7075,16 @@ a.lafka-quick-view-link i:before {
     font-size: 21px;
 }
 
+/* MODIFICADO POR KHACK */
 .links a.compare i:before {
     content: "\f142" !important;
     font-size: 24px;
 }
+/* MODIFICADO POR KHACK */
 
 a.lafka-quick-view-link:hover {
-    border-color: #333333 !important;
-    color: #333333;
+    border-color: #e4584b !important;
+    color: #e8e8e8;
 }
 
 div.prod_hold a.button, div.prod_hold .links a.button.add_to_cart_button, div.prod_hold .links a.button.add_to_cart_button.ajax_add_to_cart {
