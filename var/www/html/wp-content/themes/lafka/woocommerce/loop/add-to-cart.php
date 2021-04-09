@@ -47,11 +47,8 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		$classes[] = 'lafka-more-options';
 	} else {
 ?>
-		<span class="lafka-list-variation-label">
-			<?php
-			echo esc_html(implode(' ', $product->get_price()));
-			$lafka_quickview_link_label = __('Ordenalo Ahora', 'lafka');
-			?>
+		<span class="lafka-list-variation-price">
+			<?php echo wp_kses_post($product->get_price()); ?>
 		</span>
 <?php
 	}
