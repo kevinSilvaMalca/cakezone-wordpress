@@ -42,6 +42,7 @@ $lafka_product_video_url = get_post_meta($product->get_id(), 'lafka_product_vide
 
 	<figure class="woocommerce-product-gallery__wrapper">
 		<?php
+		print("ENTROO");
 		if ( $product->get_image_id() ) {
 			$html  = wc_get_gallery_image_html( $post_thumbnail_id, true );
 		} else {
