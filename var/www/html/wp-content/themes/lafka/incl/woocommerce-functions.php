@@ -1053,6 +1053,7 @@ if ( ! function_exists( 'lafka_show_variations_in_listings' ) ) {
 						<?php endif; ?>
 
                         <span class="lafka-list-variation-price">
+							<?php print($variation['price_html']) ?>
                             <?php echo wp_kses_post( $variation['price_html'] ); ?>
                         </span>
                         <!-- <button type="submit" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button> -->
