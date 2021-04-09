@@ -53,7 +53,7 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 				<?php echo wp_kses_post($product->get_price()); ?>
 			</span>
 			<span>
-				<?php $lafka_quickview_link_label = __('Ordenalo Ahora', 'lafka'); ?>
+				 <?php $lafka_quickview_link_label = __('+', 'lafka'); ?> <!-- ORDENALO AHORA -->
 			</span>
 		</form>
 <?php
