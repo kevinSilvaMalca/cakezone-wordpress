@@ -5664,6 +5664,12 @@ div.product .price span.amount {
     font-weight: bold;
 }
 
+/* MODIFICADO POR KHACK */
+.priceKhack{
+    font-size: 12px;
+    font-weight: bold;
+}
+
 div.product .group_table .price span.amount {
     font-size: 16px;
 }

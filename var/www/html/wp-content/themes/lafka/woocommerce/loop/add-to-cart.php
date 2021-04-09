@@ -51,7 +51,7 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 ?>
 		<!-- <div class="lafka-variations-in-catalog cart"> -->
 			<!-- <span class="lafka-list-variation-price"> -->
-				<span class="price"> <?php echo wc_price($product->get_price()); ?> </span>
+				<span class="priceKhack"> <?php echo wc_price($product->get_price()); ?> </span>
 				<!-- ORDENALO AHORA -->
 			<!-- </span> -->
 		<!-- </div> -->
