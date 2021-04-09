@@ -46,11 +46,6 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		$lafka_quickview_link_label = __('Mas Opciones', 'lafka');
 		$classes[] = 'lafka-more-options';
 	} else {
-?>
-		<!-- NuevaProgramacionDePrueba -->
-
-		<!-- NuevaProgramacionDePrueba -->
-<?php
 		$lafka_quickview_link_label = __('+', 'lafka'); //Ordenalo Ahora More Options
 	}
 
