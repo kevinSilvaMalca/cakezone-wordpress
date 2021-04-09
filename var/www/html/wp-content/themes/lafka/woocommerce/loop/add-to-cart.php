@@ -47,6 +47,7 @@ if (lafka_get_option('use_quickview') && $product->get_type() != 'composite') {
 		$classes[] = 'lafka-more-options';
 	} else {
 		// MODIFICACIONES KHACK
+		print(wc_get_product($product));
 ?>
 		<form class="lafka-variations-in-catalog cart" action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint($product->get_id()); ?>">
 			<span class="lafka-list-variation-price">
