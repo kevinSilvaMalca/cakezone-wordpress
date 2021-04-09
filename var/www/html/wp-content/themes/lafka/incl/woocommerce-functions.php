@@ -1019,7 +1019,6 @@ if ( ! function_exists( 'lafka_show_variations_in_listings' ) ) {
 
 		global /** @var WC_Product $product */
 		$product;
-		print($product);
 		if ( lafka_is_product_eligible_for_variation_in_listings( $product ) ) {
 			/** @var WC_Product_Variable $lafka_variable_product */
 			$lafka_variable_product = wc_get_product( $product );
