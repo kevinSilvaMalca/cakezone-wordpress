@@ -1051,7 +1051,7 @@ if ( ! function_exists( 'lafka_show_variations_in_listings' ) ) {
 						<?php if ( isset( $variation['weight'] ) && $variation['weight'] ): ?>
                             <span class="lafka-list-variation-weight"><?php echo esc_html( $variation['weight_html'] ); ?></span>
 						<?php endif; ?>
-						<?php echo($variation) ?>
+						<?php  var_dump($variation) ?>
                         <span class="lafka-list-variation-price">
                             <?php echo wp_kses_post( $variation['price_html'] ); ?>
                         </span>
