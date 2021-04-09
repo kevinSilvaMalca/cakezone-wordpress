@@ -1024,7 +1024,6 @@ if ( ! function_exists( 'lafka_show_variations_in_listings' ) ) {
 			$lafka_variable_product = wc_get_product( $product );
 			ob_start();
 			?>
-			<?php foreach ( $lafka_variable_product->get_available_variations() as $variation ): ?>
 				<?php if ( get_post_meta( $variation['variation_id'], '_lafka_variable_in_catalog', true ) ): ?>
                     <form class="lafka-variations-in-catalog cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>"
                           method="post"
@@ -1083,8 +1082,6 @@ if ( ! function_exists( 'lafka_show_variations_in_listings' ) ) {
 						}
 						?>
                     </form>
-				<?php endif; ?>
-			<?php endforeach; ?>
 			<?php
 			return ob_get_clean();
 		} else {
