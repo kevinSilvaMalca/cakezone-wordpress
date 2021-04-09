@@ -71,16 +71,16 @@ if (defined('YITH_WOOCOMPARE')) {
 
 echo '</div>';
 
-function get_price_html($product)
-{
-	$min_price     = current($product->get_price());
-	$max_price     = end($product->get_price());
+// function get_price_html($product)
+// {
+// 	$min_price     = current($product->get_price());
+// 	$max_price     = end($product->get_price());
 
-	if ($min_price !== $max_price) {
-		$price = wc_format_price_range($min_price, $max_price);
-	} else {
-		$price = wc_price($min_price);
-	}
-	$price = apply_filters('woocommerce_variable_price_html', $price);
-	return apply_filters('woocommerce_get_price_html', $price);
-}
+// 	if ($min_price !== $max_price) {
+// 		$price = wc_format_price_range($min_price, $max_price);
+// 	} else {
+// 		$price = wc_price($min_price);
+// 	}
+// 	$price = apply_filters('woocommerce_variable_price_html', $price);
+// 	return apply_filters('woocommerce_get_price_html', $price);
+// }
