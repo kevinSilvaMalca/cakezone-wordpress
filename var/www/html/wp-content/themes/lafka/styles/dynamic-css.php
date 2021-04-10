@@ -647,7 +647,7 @@ if (!function_exists('lafka_add_custom_css')) {
                     padding: 7px;
                 }
                 div.prod_hold .name  {
-                    font-size:12px;
+                    font-size:16px;
                     text-transform: none;
                 }
                 .prod_hold .price_hold {
